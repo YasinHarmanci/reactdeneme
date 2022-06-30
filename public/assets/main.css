@@ -1,0 +1,551 @@
+/*card upload masterclass */
+.text-upload-mc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-upload-mc div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.text-upload-mc .card-upload p{
+    padding-left: 10px;
+    margin-top: -2px;
+    font-size: 15px;
+}
+.text-upload-mc div {
+   padding-top: 15px;
+}
+.text-upload-mc div p{
+    padding: 0;
+    margin: 0;
+    padding-left: 11px;
+}
+
+.card-body .atbd-tag-wrap .atbd-upload__button  a div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px 15px 10px;
+}
+.card-body .atbd-tag-wrap .atbd-upload__button  a div .upload-span{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.card-body .atbd-tag-wrap .atbd-upload__button{
+    text-align: -webkit-center;
+}
+
+.atbd-upload .btn-upload svg, .atbd-upload .btn-upload img {
+    width: 60px;
+    height: 60px;
+    color: #adb4d2;
+}
+
+.atbd-upload.btn-upload svg, .atbd-upload .btn-upload div p {
+    margin-top: -13px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #8d91a6;
+}
+.atbd-upload.btn-upload svg, .atbd-upload .btn-upload div p .upload-span_color{
+    color: #fd9bc3;
+}
+
+.atbd-tag-wrap a .btn {
+    background: #077dfcdb;
+    color: white;
+    margin-top: 33px;
+}
+.atbd-tag-wrap-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-upload_lighten{
+    border:2px dashed #ced7e2;
+    background: #f8f9fb;
+}
+
+/* person profile information /my_profile*/
+.card-person-profile div p svg{
+    width: 17px;
+    height: 17px;
+}
+
+/*Learning Paths / card-lrnng-prfl */
+.card.card-lrnng-prfl .card-body a{
+    position: relative;
+    top: -66px;
+    left: 20px;
+}
+.card.card-lrnng-prfl .card-body h6{
+    margin-top: -40px;
+    color: #7e7e7e  !important
+
+}
+.card.card-lrnng-prfl .card-body .form-group textarea{
+    width: 50%;
+    height: 77px;
+}
+
+.card-progress-wallet {
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(146, 153, 184, 0.15);
+    border-radius: 10px;
+    padding: 15px !important;
+}
+
+/*card card-body-story*/
+.story-re-upload{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-body.card-body-story .story-re-upload img{
+    width: 80%;
+}
+.btn-story{
+    margin-top: -10px;
+    margin-left: 3px;
+}
+.btn-story-edit{
+    border: none;
+    border-radius: 50px;
+    padding: 5px 9px 7px 11px;
+}
+.btn-story-edit svg{
+    width: 17px;
+    height: 17px;
+    color: #6a6a6a ;
+}
+.card-body-quiz div h5{
+    color: #6a6a6a  !important;
+}
+
+/*MentoringSpace -- Card-Previous-Talent*/
+.tl-previous{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/* QUIZ: input text, input checkbox/ */
+.form-control {
+    border: 1px solid #d8d8d8  !important;
+}
+.custom-checkbox input[type="checkbox"] + label {
+    min-width: 18px;
+    min-height: 18px;
+    font-size: 15px;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 0;
+    line-height: 1.2;
+    font-weight: 400;
+    padding-top: 2px;
+}
+.custom-checkbox input[type="checkbox"] + label:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    content: "";
+    background-color: #fff;
+    border: 1px solid #d8d8d8   !important;
+}
+.custom-checkbox input[type="checkbox"]:checked + label:before {
+    opacity: 1;
+    color: #fff;
+}
+
+.custom-checkbox input:indeterminate ~ label::after {
+    background: #5f63f2;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    content: "\f068";
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 2;
+    border: 1px solid #5f63f2;
+}
+.custom-checkbox input[type="checkbox"] + label:before {
+    position: absolute;
+    font-size: 10px;
+    left: 5px;
+    top: 5px;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    content: "\f00c";
+    display: block;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+    z-index: 2;
+}
+.custom-checkbox.disabled {
+    opacity: .4;
+}
+
+.custom-checkbox.disabled label {
+    cursor: not-allowed;
+}
+
+.custom-checkbox.disabled input[type="checkbox"]:checked + label:after {
+    background-color: black;
+}
+
+.custom-checkbox.disabled input[type="checkbox"]:checked + label:before {
+    font-size: 8px;
+    left: 4px;
+    top: 4px;
+}
+
+.custom-checkbox.checkbox-theme-2 input[type="checkbox"] + label:after {
+    background-color: #fff;
+}
+
+.custom-checkbox.checkbox-theme-2 input[type="checkbox"] + label::before {
+    top: 3px;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+}
+
+.checkbox-controll__actions {
+    margin-top: 35px;
+}
+
+.checkbox-controll__actions .btn-checkToggle {
+    min-width: 95px;
+    margin-right: 10px;
+}
+
+.checkbox-controll__actions .btn-activeToggle {
+    min-width: 70px;
+}
+
+.checkbox-group-header {
+    border-bottom: 1px solid #f1f2f6;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+.checkbox-group__single:not(:last-child) {
+    margin-right: 10px;
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.custom-checkbox label {
+    display: inline-block !important;
+}
+
+
+
+
+/* wizard => LearningPath and MyDashboard*/
+.card.card-db-wizard .card-body .socaial-tic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 4px;
+}
+
+.card.card-db-wizard .card-body .socaial-tic li{
+    position: relative;
+}
+
+.card.card-db-wizard .card-body ul .checkout-wizard div a span.span-wizard:nth-of-type(1) {
+    height: 65px;
+    width: 65px;
+    text-align: center;
+    line-height: 55px;
+    transition: background-color 150ms ease;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 0px #d3d3d3;
+    background: #20c997;
+    color: white;
+}
+.card.card-db-wizard .card-body ul .checkout-wizard div a span.span-wizard-2:nth-of-type(1) {
+    height: 65px;
+    width: 65px;
+    text-align: center;
+    line-height: 55px;
+    transition: background-color 150ms ease;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 0px #d3d3d3;
+    background: #2a8ffc;
+    color: white;
+    font-size: 20px;
+
+}
+.card.card-db-wizard .card-body ul .checkout-wizard div span.wizard-span{
+    text-align: center;
+    font-size: 14px;
+    color: #5d5d5d !important;
+    font-weight: 600 !important;
+    padding-top: 10px;
+}
+
+.card.card-db-wizard .card-body ul .checkout-wizard div span.wizard-span p{
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+/* learningpath */
+span.wizard-check{
+    background: #32bea6 !important;
+    display: flex;
+    align-items: center;
+}
+.checkout-wizard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.checkout-wizard div{
+
+
+}
+.checkout-progress{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 710px){
+    .checkout-progress .current img{
+        margin-top: -41px;
+    }
+}
+/**/
+
+
+
+.timeline-single__buble button{
+   border:3px solid #2c99ff !important;
+}
+.card.card-lrnng-prfl .card-body .timeline-box--3 .timeline{
+    margin-left: 115px;
+}
+.timeline-box--3.basic-timeline .timeline > li .timeline-single__buble--svg {
+    width: 30px ;
+    height: 30px ;
+}
+.timeline-box--3.basic-timeline .timeline > li .timeline-single__buble {
+    width: 45px !important;
+    height: 45px !important;
+}
+.timeline-box--3 .timeline-single__days {
+    text-align: -webkit-left !important;
+    margin-bottom: 12px !important;
+}
+.timeline-box--3.basic-timeline .timeline li .timeline-single {
+    padding-left: 35px;
+}
+
+/* personal info table */
+.personal_information .table-my_profile tbody td{
+    font-size: 14px;
+    color: #666d92;
+}
+.personal_information .table-my_profile tbody th{
+    font-size: 14px;
+    width: 40%;
+}
+.table-earnings-tr thead tr th, td {
+    font-size: 13px;
+}
+.table-earnings-tr tbody tr td {
+    font-size: 13px;
+}
+
+.personal_information h5{
+ color: #2d2d2d !important;
+    font-family: "Inter", sans-serif !important;
+}
+.personal_information p{
+    color: #7b7b7b  !important;
+    font-size: 13px;
+    padding-top: 5px;
+    font-family: "Inter", sans-serif !important;
+}
+.personal_information .table-my_profile tbody .td_in a{
+    padding: 4px;
+    background: #4887bd;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+.personal_information .table-my_profile tbody .td_in a:hover{
+    padding: 6px;
+    font-size: 18px;
+}
+.skill-items span{
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 3px;
+}
+
+.content {
+    padding: 90px 120px 72px 300px;
+    transition: all 0.3s ease;
+    background: #f4f5f7;
+}
+@media (max-width: 769px) {
+    .content {
+        padding-right: 30px;
+        padding-bottom: 92px !important;    }
+}
+@media (max-width: 1150px) {
+    .content {
+        padding: 85px 0px 72px 15px;
+    }
+}
+
+.content.expanded {
+    padding-left: 93px;
+    transition: 0s;
+}
+
+@media (max-width: 1150px) {
+    .content.expanded {
+        padding-left: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .content.expanded {
+        padding-left: 0px;
+    }
+}
+
+.content.expanded + .footer-wrapper {
+    padding-left: 93px;
+}
+
+@media only screen and (max-width: 991px) {
+    .content.expanded + .footer-wrapper {
+        padding-left: 8px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .content.expanded + .footer-wrapper {
+        padding-left: 0;
+    }
+}
+
+.content.expanded:focus {
+    outline: none;
+    box-shadow: 0 5px 20px rgba(95, 99, 242, 0.1);
+}
+
+
+/*sidebar toogle*/
+@media only screen and (max-width: 390px) {
+    .navbar-left .sidebar-toggle {
+        margin-right: 2px;
+    }
+}
+@media only screen and (max-width: 479px){
+    .navbar-left .navbar-brand {
+        margin-right: 0px;
+    }
+}
+
+
+
+
+
+
+
+/* My Dashboard btn */
+.card-gnrl-btn .btn-gnrl-dshbrd{
+    margin: auto !important;
+    background: #077dfcdb;
+    color: white;
+}
+
+.card-gnrl-btn{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    left: 0;
+}
+/* button learning-paths selector*/
+
+
+
+.card{
+    box-shadow: 0px 0px 12px 0px #e5e5e5de !important;
+}
+
+.gnrl-width{
+    max-width: 100%;
+}
+
+/*btn-edit-path-btn-delete-path*/
+.btn-delete-path{
+    border: 1px solid #cdcdcd;
+    background: white;
+    border-radius: 4px;
+}
+.btn-delete-path svg{
+    color:#eb2626;
+    width: 19px;
+    height: 19px;
+}
+
+/*request btn mentoring space*/
+.request-3{
+    position: absolute;
+    top: 42px;
+    margin: 10px;
+}
+
+.request-4{
+    position: absolute;
+    bottom: 20px;
+    max-width: 300px;
+}
+@media only screen and (max-width: 560px){
+    .request-4{
+        display:none;
+    }
+    .card.card-mt-space .card-body ul::before{
+        top:66px;
+    }
+}
+@media only screen and (max-width: 780px){
+    .card.card-mt-space .card-body ul::before{
+        top:66px;
+    }
+    .request-3{
+        top: 32px;
+    }
+}
+
